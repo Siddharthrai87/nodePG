@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "learning node.js",
+  "homepage": "https://github.com/Siddharthrai87/NodePG#readme",
+  "bugs": {
+    "url": "https://github.com/Siddharthrai87/NodePG/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharthrai87/NodePG.git"
+  },
+  "license": "ISC",
+  "author": "Siddharth Rai",
+  "type": "commonjs",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node hello.js"
+  }
+}
