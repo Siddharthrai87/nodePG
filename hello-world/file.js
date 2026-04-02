@@ -1,5 +1,6 @@
 const { error } = require("console");
 const fs=require("fs");
+const os=require("os");
 
 // fs.writeFileSync('./text.txt',"hey there");
 
@@ -18,5 +19,7 @@ const fs=require("fs");
 
 // fs.unlinkSync("./test.txt");
 
-console.log(fs.statSync("./text.txt"));
-fs.mkdirSync("hell/a/b",{recursive:true});
+// console.log(fs.statSync("./text.txt"));
+// fs.mkdirSync("hell/a/b",{recursive:true});
+
+console.log(os.cpus().length);
